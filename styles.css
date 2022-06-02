@@ -1,0 +1,163 @@
+body {
+    font-family: roboto;
+    max-height: 100%;
+    margin: 0;
+    padding: 0px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    height: 50px;
+    padding: 0px 80px;
+}
+
+.hright {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #6b6b6c;
+    gap: 12px;
+}
+
+.sect1 {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0px 80px;
+    padding-top: 40px;
+    justify-content: space-between;
+    flex: auto;
+    gap: 24px;
+
+}
+
+.left1 {
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+.bigimg {
+
+    margin: auto;
+    overflow: auto;
+
+}
+
+.left1 div {
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+.left1 p {
+    color: #6b6b6c;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    width: 100px;
+}
+
+.sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px;
+    flex-grow: 0;
+}
+
+.imgswrap {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    gap: 20px;
+    max-width: 125px;
+
+
+
+}
+
+.img2 img {
+    margin: 0;
+    overflow: auto;
+    width: 125px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.sect3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+
+.sect3 p {
+
+    align-self: center;
+    max-width: 55%;
+
+}
+
+.sect3 div {
+    align-self: flex-end;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+.sect4 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color:#e5e7eb;
+}
+
+.box {
+    background-color: #3882f6;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    border-radius: 5px;
+    padding: 12px 36px;
+    justify-content: space-around;
+    align-items: center;
+}
+.box p {
+    color:#d0d0d3;
+}
+.sect4 button {
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 120px;
+    font-size: 12px;
+}
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    height: 50px;
+    color:#d0d0d3;
+    padding: 15px;
+}
